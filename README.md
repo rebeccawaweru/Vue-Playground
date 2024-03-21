@@ -24,7 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-VUE BEST PRACTICES
+VUE BEST PRACTICES<br>
 Component-based architecture. Break down your application into small, reusable components. This promotes maintainability, readability, and testability.
 
 Single-file components. Use .vue files to encapsulate the template, script, and styles for each component. This keeps your code organized and easy to understand.
@@ -47,7 +47,7 @@ Testing. Write unit tests for your components and end-to-end tests for your appl
 
 
 
-COMMON PITFALLS TO AVOID IN VUE
+COMMON PITFALLS TO AVOID IN VUE <br>
 Overusing v-if and v-for. Avoid using v-if and v-for on the same element, as it can lead to performance issues. Instead, use computed properties to filter the list before rendering.
 
 Directly modifying props. Never modify a prop directly within a child component. Instead, emit an event to the parent component to update the prop.
