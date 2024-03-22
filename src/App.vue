@@ -1,31 +1,36 @@
 <template>
-  <SideBar/>
-  <IntroSection/>
-  <RightSideBar/>
+  <v-container fluid class="min-h-screen w-100 bg-grey-lighten-3 overflow-x-hidden ">
+    <div class="h-70 w-100 bg-white mb-4">
+     <p>Navbar</p>
+    </div>
+    <v-row no-gutters>
+    <SideBar/>
+    <v-col lg="9" sm="12">
+    <IntroSection/>
+    </v-col>
+    </v-row>
+  </v-container>
 </template>
-<script>
 
+<script>
 import SideBar from './components/SideBar.vue'
 import IntroSection from './components/IntroSection.vue'
-import RightSideBar from './components/RightSideBar.vue'
+
 
 export default {
   name: 'App',
   components: {
     SideBar,
-    IntroSection,
-    RightSideBar
+    IntroSection
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
