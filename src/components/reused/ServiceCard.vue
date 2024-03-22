@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .title{
   font-size: large;
 }
