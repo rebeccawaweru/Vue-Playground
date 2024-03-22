@@ -5,7 +5,7 @@
             <span class="text-xs">Hello, I'm</span> 
            <p class="text-h3 font-weight-bold">ANGELA J. ROBB</p>
            <p class="text-h3 font-weight-bold"><span class="text-yellow-accent-4">Business</span> Administrator</p>
-           <p class="text-grey-lighten-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolor hic adipisci soluta. Quasi, facilis. Similique at consequuntur molestias dignissimos necessitatibus illo voluptates alias soluta omnis. Quos praesentium veritatis nostrum?</p>
+           <p class="text-grey-darken-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolor hic adipisci soluta. Quasi, facilis. Similique at consequuntur molestias dignissimos necessitatibus illo voluptates alias soluta omnis. Quos praesentium veritatis nostrum?</p>
            <v-btn size="x-large" class="bg-yellow-accent-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
          </v-col>
          <v-col class="d-flex sm:d-none">

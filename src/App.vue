@@ -1,12 +1,13 @@
 <template>
-  <v-container fluid class="min-h-screen w-100 bg-grey-lighten-3 overflow-x-hidden ">
+  <v-container fluid class="min-h-screen w-100 bg-grey-lighten-3 overflow-hidden ">
     <div class="h-70 w-100 bg-white mb-4">
      <p>Navbar</p>
     </div>
     <v-row no-gutters>
     <SideBar/>
-    <v-col lg="9" sm="12">
+    <v-col lg="9" md="9" sm="12" >
     <IntroSection/>
+    <ServicesSection/>
     </v-col>
     </v-row>
   </v-container>
@@ -15,13 +16,14 @@
 <script>
 import SideBar from './components/SideBar.vue'
 import IntroSection from './components/IntroSection.vue'
-
+import ServicesSection from './components/ServicesSection'
 
 export default {
   name: 'App',
   components: {
     SideBar,
-    IntroSection
+    IntroSection,
+    ServicesSection
   }
 }
 </script>

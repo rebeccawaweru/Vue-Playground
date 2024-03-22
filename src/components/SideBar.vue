@@ -1,5 +1,5 @@
 <template>
-    <v-col cols="3">
+    <v-col lg="3" md="3" sm="12">
         <v-sheet class="pa-4 mr-2 d-flex flex-column justify-center items-center  ga-6">
         <v-img :src="require('../assets/angie-profile.png')"  :width="100" cover class="rounded-circle align-self-center"> </v-img>
         <p class="text-center">ANGELA J. ROBB</p>
