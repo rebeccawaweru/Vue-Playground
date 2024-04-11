@@ -8,8 +8,10 @@
            <p class="text-grey-darken-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolor hic adipisci soluta. Quasi, facilis. Similique at consequuntur molestias dignissimos necessitatibus illo voluptates alias soluta omnis. Quos praesentium veritatis nostrum?</p>
            <v-btn size="x-large" class="bg-green-darken-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
          </v-col>
-         <v-col class="d-flex sm:d-none">
-            <v-img :src="require('../assets/angie.png')" :width="300" :height="500" cover> </v-img>
+         <v-col class="d-flex sm:d-none ">
+            <v-img :src="require('../assets/new-angie.jpg')" :height="480" cover class="rounded-circle align-self-center profile"> </v-img>
+
+            <!-- <v-sheet class="profile"> </v-sheet> -->
          </v-col>
         </v-row>         
      </v-sheet>
@@ -50,5 +52,11 @@ ul {
 }
 li {
     margin:0 20px;
+}
+.profile {
+
+  
+    background-position: center 60%;
+
 }
 </style>

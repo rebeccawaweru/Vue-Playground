@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="min-h-screen w-100 bc overflow-hidden ">
     <v-sheet style="background-color:#040426" class="h-70 d-flex text-white mb-4 pa-4 justify-space-between content ">
-      <p class="port "><v-icon icon="mdi-moon-waning-crescent bg-green-darken-4 rounded-circle pa-4 mr-4"></v-icon>PORTFOLIO</p>
+      <p class="port "><v-icon icon="mdi-home-account bg-green-darken-4 rounded-circle pa-4 mr-4"></v-icon>PORTFOLIO</p>
       <div class="d-none d-sm-flex ga-4">
         <v-icon icon="mdi-home-circle" class="bg-green-darken-4 pa-4 text-subtitle-2 rounded-circle "></v-icon>
         <v-icon icon="mdi-tools" class="bg-green-darken-4 pa-4 text-subtitle-2 rounded-circle "></v-icon>
@@ -97,9 +97,11 @@ export default {
      
          &::-webkit-scrollbar-track {
              background: green; /* Background color of the scrollbar track */
+         
          }
      
          &::-webkit-scrollbar-thumb {
+             border-radius: 20px;
              background-color: #040426; /* Color of the scrollbar thumb */
              border:1px solid green; /* Spacing between thumb and track */
          }
@@ -131,11 +133,11 @@ export default {
       }
   
       &::-webkit-scrollbar-track {
-          background: green; /* Background color of the scrollbar track */
+          background: #040426; /* Background color of the scrollbar track */
       }
   
       &::-webkit-scrollbar-thumb {
-          background-color: #040426; /* Color of the scrollbar thumb */
+          background-color: green; /* Color of the scrollbar thumb */
           border:1px solid green; /* Spacing between thumb and track */
       }
   
