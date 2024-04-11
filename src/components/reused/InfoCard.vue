@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-space-between">
+    <div class="d-flex justify-space-between text-white">
         <p>{{ title }}:</p>
         <p>{{ caption }}</p>
     </div>

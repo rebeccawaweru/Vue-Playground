@@ -1,12 +1,12 @@
 <template>
-    <v-sheet class="mt-3">
+    <v-sheet style="background-color:#040426" class="mt-3 text-white">
         <v-row>
          <v-col class="d-flex flex-column px-8 justify-center text-left ga-4">
             <span class="text-xs">Hello, I'm</span> 
            <p class="text-h3 font-weight-bold">ANGELA J. ROBB</p>
-           <p class="text-h3 font-weight-bold"><span class="text-yellow-accent-4">Business</span> Administrator</p>
+           <p class="text-h3 font-weight-bold"><span class="text-green-darken-4">Business</span> Administrator</p>
            <p class="text-grey-darken-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolor hic adipisci soluta. Quasi, facilis. Similique at consequuntur molestias dignissimos necessitatibus illo voluptates alias soluta omnis. Quos praesentium veritatis nostrum?</p>
-           <v-btn size="x-large" class="bg-yellow-accent-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
+           <v-btn size="x-large" class="bg-green-darken-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
          </v-col>
          <v-col class="d-flex sm:d-none">
             <v-img :src="require('../assets/angie.png')" :width="300" :height="500" cover> </v-img>

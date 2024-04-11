@@ -1,5 +1,5 @@
 <template>
-    <label>{{ label }}</label>
+    <label class="text-grey-lighten-3">{{ label }}</label>
     <input type="text" class="bg-grey-lighten-3"/>
 </template>
 

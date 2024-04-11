@@ -1,9 +1,9 @@
 <template>
-    <div class="d-flex flex-column justify-center items-center w-100 h-100 mt-2 bg-white text-center pa-10 ga-2">
-        <v-icon :icon="icn" class="align-self-center text-yellow-accent-4 text-h3"></v-icon>
-        <p class="title">{{ title }}</p>
+    <v-sheet border="success md" style="background-color:#040426"  class=" d-flex flex-column justify-center items-center w-100 h-100 mt-2 text-center pa-10 ga-2">
+        <v-icon :icon="icn" class="align-self-center text-green-darken-4 text-h3"></v-icon>
+        <p class="title text-white">{{ title }}</p>
         <p class="text-grey-darken-2">{{ caption }}</p>
-    </div>
+    </v-sheet>
 </template>
 
 <script>
