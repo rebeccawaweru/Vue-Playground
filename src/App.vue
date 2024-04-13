@@ -124,7 +124,7 @@ body{
 
 }
 
-<!-- @media only screen and (min-width: 930px) {
+ @media only screen and (min-width: 930px) {
   .nav {
     width:100%;
     margin-left: 0%;
@@ -135,7 +135,7 @@ body{
   .profile {
     height: 480px;
    }
-} -->
+} 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 960px) {
   .side {

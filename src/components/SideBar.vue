@@ -59,9 +59,7 @@ export default {
 
 .bc{
     background-color: #0F0530;
-  }  
-
-  
+  }    
  .divider {
    border: 2px green solid;
  }
