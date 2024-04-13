@@ -9,7 +9,7 @@
            <v-btn size="x-large" class="bg-green-darken-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
          </v-col>
          <v-col class="d-none d-sm-flex">
-            <v-img :src="require('../assets/new-angie.jpg')" cover class="rounded-circle align-self-center profile"> </v-img>
+            <v-img :src="require('../assets/angie-new.png')"  class="rounded-circle align-self-center prof profile"> </v-img>
 
             <!-- <v-sheet class="profile"> </v-sheet> -->
          </v-col>

@@ -82,6 +82,9 @@ body{
   align-items: center;
   z-index: 50;
 }
+.prof {
+  box-shadow: 0px 8px 0px green
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
    .nav {
