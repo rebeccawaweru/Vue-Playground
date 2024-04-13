@@ -1,5 +1,5 @@
 <template>
-<v-row class="mt-8 text-white">
+<v-row id="contact" class="mt-8 text-white">
     <v-col class="d-flex flex-column ga-4 pa-6">
         <p class="port text-left">LET'S TALK</p>
         <div style="width: 10%;" class="my-2 divider "></div>

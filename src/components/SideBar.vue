@@ -1,5 +1,5 @@
 <template>
-    <v-col lg="3" md="3" sm="12" class="side" >
+    <v-col lg="3" md="3"  sm="12" class="side" >
         <v-sheet style="background-color:#040426" class="text-white pa-4 mr-2 d-flex flex-column justify-center items-center ga-6">
         
             <v-img  :src="require('../assets/angie.jpg')"  :width="150" :height="145" cover  class="rounded-circle align-self-center"> </v-img>

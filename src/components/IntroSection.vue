@@ -1,5 +1,5 @@
 <template>
-    <v-sheet style="background-color:#040426" class="mt-3 text-white">
+    <v-sheet style="background-color:#040426" class="mt-2 text-white">
         <v-row>
          <v-col class="d-flex flex-column px-8 justify-center text-left ga-4">
             <span class="text-xs">Hello, I'm</span> 
@@ -8,8 +8,8 @@
            <p class="text-grey-darken-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolor hic adipisci soluta. Quasi, facilis. Similique at consequuntur molestias dignissimos necessitatibus illo voluptates alias soluta omnis. Quos praesentium veritatis nostrum?</p>
            <v-btn size="x-large" class="bg-green-darken-4" append-icon="mdi-arrow-right-thin">HIRE ME</v-btn>
          </v-col>
-         <v-col class="d-flex sm:d-none ">
-            <v-img :src="require('../assets/new-angie.jpg')" :height="480" cover class="rounded-circle align-self-center profile"> </v-img>
+         <v-col class="d-none d-sm-flex">
+            <v-img :src="require('../assets/new-angie.jpg')" cover class="rounded-circle align-self-center profile"> </v-img>
 
             <!-- <v-sheet class="profile"> </v-sheet> -->
          </v-col>
@@ -53,10 +53,5 @@ ul {
 li {
     margin:0 20px;
 }
-.profile {
 
-  
-    background-position: center 60%;
-
-}
 </style>
