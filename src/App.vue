@@ -48,11 +48,35 @@ export default {
 </script>
 
 <style>
+body{
+       /* WebKit scrollbar customization */
+       scrollbar-width: thin; /* For Firefox, adjust scrollbar width (optional) */
+       scrollbar-color: #040426; /* For Firefox, change thumb and track color (optional) */
+   
+       /* For WebKit-based browsers */
+       &::-webkit-scrollbar {
+      
+           width: 5px; /* Width of the scrollbar */
+      
+       }
+   
+       &::-webkit-scrollbar-track {
+           background: #040426; /* Background color of the scrollbar track */
+       }
+   
+       &::-webkit-scrollbar-thumb {
+           background-color: transparent; /* Color of the scrollbar thumb */
+           border:1px solid green; /* Spacing between thumb and track */
+       }
+   
+}
 #app {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+
+  
 
 }
 .bc{
@@ -85,26 +109,25 @@ export default {
     left: 0;
     height: 100vh;
     overflow-y: scroll;
-         /* WebKit scrollbar customization */
-         scrollbar-width: thin; /* For Firefox, adjust scrollbar width (optional) */
-         scrollbar-color: #040426; /* For Firefox, change thumb and track color (optional) */
-     
-         /* For WebKit-based browsers */
-         &::-webkit-scrollbar {
-             width: 8px; /* Width of the scrollbar */
-        
-         }
-     
-         &::-webkit-scrollbar-track {
-             background: green; /* Background color of the scrollbar track */
+          /* WebKit scrollbar customization */
+          scrollbar-width: thin; /* For Firefox, adjust scrollbar width (optional) */
+          scrollbar-color: #040426; /* For Firefox, change thumb and track color (optional) */
+      
+          /* For WebKit-based browsers */
+          &::-webkit-scrollbar {
+              width: 8px; /* Width of the scrollbar */
          
-         }
-     
-         &::-webkit-scrollbar-thumb {
-             border-radius: 20px;
-             background-color: #040426; /* Color of the scrollbar thumb */
-             border:1px solid green; /* Spacing between thumb and track */
-         }
+          }
+      
+          &::-webkit-scrollbar-track {
+              background: #040426; /* Background color of the scrollbar track */
+          }
+      
+          &::-webkit-scrollbar-thumb {
+              background-color: green; /* Color of the scrollbar thumb */
+              border:1px solid green; /* Spacing between thumb and track */
+          }
+      
    
   }
   
